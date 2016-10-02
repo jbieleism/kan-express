@@ -1,0 +1,25 @@
+{
+  "name": "wrath-of-kan",
+  "version": "",
+  "description": "Learn about express",
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts":{
+    "start": "nodemon server.js"
+
+  },
+
+  "engines": {
+    "node": ">=4.0.0"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.4.1",
+    "mysql": "^2.11.1",
+    "request": "^2.75.0",
+    "sequelize": "^3.21.0"
+  }
+}
